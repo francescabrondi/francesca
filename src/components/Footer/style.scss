@@ -4,7 +4,20 @@
   background-color: black;
   height: 10vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  .cv {
+    margin-left: 20px;
+    a {
+      color: white;
+      font-family: $title-font;
+      font-size: 30px;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 
   .socials {
     display: flex;

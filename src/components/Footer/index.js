@@ -5,6 +5,11 @@ import "./style.scss";
 const footer = () => {
   return (
     <div className="footer">
+      <div className="cv">
+        <a href="./curriculum.pdf" download>
+          <p> Curriculum </p>
+        </a>
+      </div>
       <div className="socials">
         <a
           href="https://www.facebook.com/francesca.brondi"
